@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    tools:context=".login_activity"
+    android:background="@drawable/ddd"
+    >
+
+    <TextView
+        style="@style/styles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="Log In"
+        android:textSize="30dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/styles"
+        android:text="Username"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+    </TextView>
+
+    <EditText
+        style="@style/styles"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/styles"
+        android:text="Password"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+    </TextView>
+
+    <EditText
+        style="@style/styles"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"></EditText>
+
+    <Button
+        android:id="@+id/BtLogin"
+        android:layout_width="116dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@color/babygreen"
+        android:text="Log In"
+        android:onClick="LogIn"/>
+    <Button
+        android:layout_width="116dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@color/babygreen"
+        android:text="Register"
+        android:onClick="reg_BT">
+
+        >
+
+    </Button>
+
+
+
+</LinearLayout>
